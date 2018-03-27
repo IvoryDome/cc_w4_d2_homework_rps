@@ -3,8 +3,8 @@ require('sinatra/contrib/all')
 require_relative('./models/game')
 
 
-get '/rps/' do
-  "Welcome to rock, paper, scissors, in order to play enter your 2 inputs, (rock, paper, scissors) as the path at the end of the URL"
+get '/rps/welcome' do
+  erb(:welcome)
 end
 
 

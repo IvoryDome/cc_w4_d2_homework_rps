@@ -22,7 +22,7 @@ class Game
     elsif (input1 == 'paper' && input2 == 'scissors')
       return "Scissors beats paper!"
     elsif (input1 == 'scissors' && input2 == 'rock')
-      return "Rock beats paper!"
+      return "Rock beats scissors!"
     end
   end
 
